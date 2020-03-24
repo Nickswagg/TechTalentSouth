@@ -104,7 +104,8 @@ body
 		justify-content: space-between;
 		/* border: 1px solid #ccc; */
 		display: flex;
-	    flex-flow: row wrap;
+	    flex-wrap: row wrap;
+	    flex-wrap: wrap;
 	}
 .box
 	{
@@ -172,10 +173,10 @@ body
 }
 .footer-title
 {
-	color: #032459;
+	color: #3333ff;
 	font-family: 'Righteous', cursive;
 	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
+	font-size: 22px;
 	font-weight: 600;
 }
 .form-control
@@ -184,3 +185,17 @@ body
 }
 
 /* Carousel  CSS Queries*/
+@media all and (max-width: 800px) {
+	  .box
+	{
+		width: 100% !important;
+		margin-top : 10px;
+	}
+}
+@media all and (max-width: 574px) {
+	  .box
+	{
+		width: 95% !important;
+		margin : 0 auto;
+	}
+}
