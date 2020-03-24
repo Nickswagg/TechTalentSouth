@@ -1,0 +1,13 @@
+.bg-dark
+{    
+	background-color: #ffffff !important; 
+	box-shadow: 1px 1px 1px #cccccc;
+}
+.navbar-dark .navbar-nav .nav-link
+{
+	margin: 16px;
+	color: #032459;
+	font-family: 'Righteous', cursive;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
